@@ -53,6 +53,7 @@
 
 @yield('body')
 
+<script src="{{ asset('js/bootstrap.js') }}"></script>
 @stack('js.include')
 @stack('js.use')
 
